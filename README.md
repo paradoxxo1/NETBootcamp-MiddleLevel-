@@ -1,21 +1,21 @@
-TS NET Middle Eğitimi
+# TS NET Middle Eğitimi
 
-13.07.2024 (Sonraki ders)  
-Result pattern  
-OData  
-Memory Cache - Redis Cache  
-Options Pattern  
-Generic Repository Pattern   
-Domain Event  
-Behaviors  
+### 13.07.2024 (Sonraki Ders)
+- Result Pattern
+- OData
+- Memory Cache - Redis Cache
+- Options Pattern
+- Generic Repository Pattern
+- Domain Event
+- Behaviors
 
-07.07.2024  
-Clean Architecture ile Todo app başladık devam edeceğiz  
-Auto Mapper  
-Exception Handler  
+### 07.07.2024
+- Clean Architecture ile Todo app başladık, devam edeceğiz
+- Auto Mapper
+- Exception Handler
 
-06.07.2024   
-Architectural Patterns  
-Diğer Mimari Türleri  
-Clean Architecture Giriş  
-Clean Architecture ile Todo app başladık  
+### 06.07.2024
+- Architectural Patterns
+- Diğer Mimari Türleri
+- Clean Architecture Giriş
+- Clean Architecture ile Todo app başladık
