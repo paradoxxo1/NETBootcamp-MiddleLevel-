@@ -1,14 +1,10 @@
-﻿namespace TodoCleanArchitecture.Domain.Entities;
+﻿using TodoCleanArchitecture.Domain.Abstractions;
 
-public sealed class Todo
+namespace TodoCleanArchitecture.Domain.Entities;
+
+public sealed class Todo : Entity
 {
-    public Todo()
-    {
-        Id = Guid.NewGuid();
-    }
-    public Guid Id { get; set; }
-    public string Work {   get; set;  } = default!;
-    public DateTime CreatedAt { get; set; }
+    public string Work { get; set; } = default!;
     public DateOnly DeadLine { get; set; }
     public bool IsCompleted { get; set; }
 }

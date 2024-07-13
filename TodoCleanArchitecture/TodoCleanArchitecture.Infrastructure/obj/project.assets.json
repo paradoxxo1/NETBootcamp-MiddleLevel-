@@ -4126,11 +4126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\TodoCleanArchitecture.Infrastructure.csproj",
+      "projectUniqueName": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\TodoCleanArchitecture.Infrastructure.csproj",
       "projectName": "TodoCleanArchitecture.Infrastructure",
-      "projectPath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\TodoCleanArchitecture.Infrastructure.csproj",
+      "projectPath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\TodoCleanArchitecture.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Paradoxxo\\.nuget\\packages\\",
-      "outputPath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\obj\\",
+      "outputPath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paradoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4148,8 +4148,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj": {
-              "projectPath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj"
+            "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj": {
+              "projectPath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj"
             }
           }
         }

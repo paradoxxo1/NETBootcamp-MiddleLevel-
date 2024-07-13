@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z0J74bMXL4s=",
+  "dgSpecHash": "B44feHgyv10=",
   "success": true,
-  "projectFilePath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\TodoCleanArchitecture.Infrastructure.csproj",
+  "projectFilePath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Infrastructure\\TodoCleanArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paradoxxo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Paradoxxo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

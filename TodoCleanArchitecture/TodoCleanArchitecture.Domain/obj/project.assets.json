@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj",
+      "projectUniqueName": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj",
       "projectName": "TodoCleanArchitecture.Domain",
-      "projectPath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj",
+      "projectPath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj",
       "packagesPath": "C:\\Users\\Paradoxxo\\.nuget\\packages\\",
-      "outputPath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\obj\\",
+      "outputPath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paradoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",

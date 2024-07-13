@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZlOWAxyay/o=",
+  "dgSpecHash": "cD/z/reKXzs=",
   "success": true,
-  "projectFilePath": "C:\\TSNETMiddle\\CleanArchitecture\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj",
+  "projectFilePath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
