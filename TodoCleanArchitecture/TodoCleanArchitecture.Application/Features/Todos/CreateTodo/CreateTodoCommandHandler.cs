@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using MediatR;
+using TodoCleanArchitecture.Domain.Abstractions;
 using TodoCleanArchitecture.Domain.Entities;
 using TodoCleanArchitecture.Domain.Repositories;
-using TS.Result;
 
 namespace TodoCleanArchitecture.Application.Features.Todos.CreateTodo;
 
@@ -16,12 +16,18 @@ internal sealed class CreateTodoCommandHandler(
 
         if (isWorkExists)
         {
-            return Result<string>.Failure(400, "This record already exists.");
+            //throw new ArgumentException("This record already exists.");
+            //throw new DublicateRecordWorkException();
+            //var errorResponse = new Result<string>(500, "This record already exists.");
+            var errorResponse = Result<string>.Failure(500, "This record already exists.");
+            return errorResponse;
         }
 
         Todo todo = mapper.Map<Todo>(request);
         await todoRepository.CreateAsync(todo, cancellationToken);
 
+        //var response = Result<string>.Success("Create is successful");
         return "Create is successful";
     }
 }
+

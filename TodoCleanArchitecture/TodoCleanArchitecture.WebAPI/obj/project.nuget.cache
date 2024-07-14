@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xstWLcKI/5I=",
+  "dgSpecHash": "x1xas2OVC3o=",
   "success": true,
   "projectFilePath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.WebAPI\\TodoCleanArchitecture.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -67,8 +67,7 @@
     "C:\\Users\\Paradoxxo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Paradoxxo\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\Paradoxxo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Paradoxxo\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Paradoxxo\\.nuget\\packages\\ts.result\\8.0.6\\ts.result.8.0.6.nupkg.sha512"
+    "C:\\Users\\Paradoxxo\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
