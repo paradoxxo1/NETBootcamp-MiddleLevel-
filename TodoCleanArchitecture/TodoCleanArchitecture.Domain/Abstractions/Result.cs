@@ -22,7 +22,7 @@ public sealed class Result<T>
     [JsonIgnore]
     public int StatusCode { get; private set; }
 
-    public static Result<T> Success(T data)
+    public static Result<T> Succeed(T data)
     {
         return new Result<T>(data);
     }
@@ -32,6 +32,6 @@ public sealed class Result<T>
     }
     public static implicit operator Result<T>(T data)
     {
-        return Result<T>.Success(data);
+        return Result<T>.Succeed(data);
     }
 }

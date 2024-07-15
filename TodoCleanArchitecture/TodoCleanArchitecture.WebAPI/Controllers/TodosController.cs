@@ -4,6 +4,7 @@ using TodoCleanArchitecture.Application.Features.Todos.CreateTodo;
 using TodoCleanArchitecture.Application.Features.Todos.DeleteTodoById;
 using TodoCleanArchitecture.Application.Features.Todos.GetAllTodo;
 using TodoCleanArchitecture.Application.Features.Todos.UpdateTodo;
+using TodoCleanArchitecture.WebAPI.AOP;
 
 namespace TodoCleanArchitecture.WebAPI.Controllers;
 [Route("api/[controller]/[action]")]
@@ -12,6 +13,7 @@ public class TodosController(
     IMediator mediator) : ControllerBase
 {
     [HttpGet]
+    [EnableQueryWithMetadata]
     public async Task<IActionResult> GetAll(CancellationToken cancellationToken)
     {
         GetAllTodoQuery request = new();

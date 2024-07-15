@@ -1,6 +1,6 @@
-@TodoCleanArchitecture.WebAPI_HostAddress = http://localhost:5181
 
-GET {{TodoCleanArchitecture.WebAPI_HostAddress}}/weatherforecast/
+
+GET http://localhost:5181/api/Todos/GetAll?$top=3&skip=5&$orderby=Work
 Accept: application/json
 
 ###
