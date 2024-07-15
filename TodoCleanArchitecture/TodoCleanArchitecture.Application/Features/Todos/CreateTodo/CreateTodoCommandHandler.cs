@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using TodoCleanArchitecture.Application.Service;
 using TodoCleanArchitecture.Domain.Abstractions;
 using TodoCleanArchitecture.Domain.Entities;
 using TodoCleanArchitecture.Domain.Repositories;
@@ -8,7 +9,8 @@ namespace TodoCleanArchitecture.Application.Features.Todos.CreateTodo;
 
 internal sealed class CreateTodoCommandHandler(
     ITodoRepository todoRepository,
-    IMapper mapper) : IRequestHandler<CreateTodoCommand, Result<string>>
+    IMapper mapper,
+    ICacheService cache) : IRequestHandler<CreateTodoCommand, Result<string>>
 {
     public async Task<Result<string>> Handle(CreateTodoCommand request, CancellationToken cancellationToken)
     {
@@ -27,6 +29,7 @@ internal sealed class CreateTodoCommandHandler(
         await todoRepository.CreateAsync(todo, cancellationToken);
 
         //var response = Result<string>.Success("Create is successful");
+        cache.Remove("todos");
         return "Create is successful";
     }
 }

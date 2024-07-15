@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TodoCleanArchitecture.Application\TodoCleanArchitecture.Application.csproj" />
     <ProjectReference Include="..\TodoCleanArchitecture.Domain\TodoCleanArchitecture.Domain.csproj" />
   </ItemGroup>
 

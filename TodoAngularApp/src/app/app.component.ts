@@ -1,42 +1,33 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FlexiGridModule, FlexiGridService, StateModel } from 'flexi-grid';
+import { FlexiGridModule, StateModel } from 'flexi-grid';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, FlexiGridModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   data = signal<any[]>([]);
-  total = signal<number>(0);
   state = signal<StateModel>(new StateModel());
 
-
-  constructor(
-    private http: HttpClient,
-    private flexi : FlexiGridService
-  ){
+  constructor(private http: HttpClient) {
     this.getAll();
   }
 
-  getAll(){
-    let endpoint = "https://localhost:7283/api/Todos/GetAll?count=true&";
-    let stateResponse = this.flexi.getODataEndpoint(this.state());
-    endpoint += stateResponse;
+  getAll() {
+    let endpoint = 'https://localhost:7283/api/Todos/GetAll';
     console.log(endpoint);
 
-     this.http.get(endpoint)
-     .subscribe((res:any)=>{
-      this.data.set(res.data);
-      this.total.set(res.total);
-     });
+    this.http.get(endpoint).subscribe((res: any) => {
+      this.data.set(res);
+    });
   }
 
-  onStateChange(event: StateModel){
+  onStateChange(event: StateModel) {
     this.state.set(event);
     this.getAll();
   }

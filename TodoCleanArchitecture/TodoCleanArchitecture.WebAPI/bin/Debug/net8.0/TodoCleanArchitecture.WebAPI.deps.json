@@ -658,6 +658,8 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "MediatR": "12.3.0",
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Caching.Memory": "8.0.0",
           "TodoCleanArchitecture.Domain": "1.0.0"
         },
         "runtime": {
@@ -673,6 +675,7 @@
         "dependencies": {
           "Bogus": "35.5.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
+          "TodoCleanArchitecture.Application": "1.0.0",
           "TodoCleanArchitecture.Domain": "1.0.0"
         },
         "runtime": {
