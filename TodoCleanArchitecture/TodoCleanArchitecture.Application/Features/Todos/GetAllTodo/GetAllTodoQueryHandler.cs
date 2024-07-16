@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using TodoCleanArchitecture.Application.Service;
 using TodoCleanArchitecture.Domain.Entities;
 using TodoCleanArchitecture.Domain.Repositories;
@@ -15,7 +16,7 @@ internal sealed class GetAllTodoQueryHandler(
 
         if (todos is null)
         {
-            todos = await todoRepository.GetAllAsync(cancellationToken);
+            todos = await todoRepository.GetAll().ToListAsync(cancellationToken);
 
             cache.Set("todos", todos);
         }

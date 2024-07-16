@@ -1,16 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using TodoCleanArchitecture.Domain.Abstractions;
 using TodoCleanArchitecture.Domain.Entities;
 
 namespace TodoCleanArchitecture.Infrastructure.Context;
 internal class ApplicationDbContext : DbContext
 {
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public ApplicationDbContext(DbContextOptions options) : base(options)
     {
-        optionsBuilder.UseSqlServer("Data Source=DESKTOP-GH3V0B2\\SQLEXPRESS;Initial Catalog=TodoCleanDb;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
-        optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
     }
+
     public DbSet<Todo> Todos { get; set; }
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
