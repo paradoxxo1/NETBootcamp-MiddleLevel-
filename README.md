@@ -31,12 +31,6 @@
 - Clean Architecture Giriş
 - Clean Architecture ile Todo app başladık
 
-![1](https://github.com/user-attachments/assets/acc9a287-3eff-4230-962d-52c04d5b36f4)
-![3](https://github.com/user-attachments/assets/c73b5f4e-385f-4573-b01d-11007638d2e2)
-![2](https://github.com/user-attachments/assets/72c706b0-67c5-488c-b873-7388798169a3)
-
-
-
 ## Eğitmen
 Taner Saydam
 
@@ -61,4 +55,8 @@ Taner Saydam
 
 ## Proje
 - Clean Architecture ile Todo uygulaması geliştirme
+
+![1](https://github.com/user-attachments/assets/acc9a287-3eff-4230-962d-52c04d5b36f4)
+![3](https://github.com/user-attachments/assets/c73b5f4e-385f-4573-b01d-11007638d2e2)
+![2](https://github.com/user-attachments/assets/72c706b0-67c5-488c-b873-7388798169a3)
 
