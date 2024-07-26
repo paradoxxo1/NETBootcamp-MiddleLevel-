@@ -3,6 +3,7 @@ using MediatR;
 using TodoCleanArchitecture.Application.Service;
 using TodoCleanArchitecture.Domain.Abstractions;
 using TodoCleanArchitecture.Domain.Entities;
+using TodoCleanArchitecture.Domain.Events;
 using TodoCleanArchitecture.Domain.Repositories;
 
 namespace TodoCleanArchitecture.Application.Features.Todos.CreateTodo;
@@ -10,6 +11,9 @@ namespace TodoCleanArchitecture.Application.Features.Todos.CreateTodo;
 internal sealed class CreateTodoCommandHandler(
     ITodoRepository todoRepository,
     IMapper mapper,
+    IMediator mediator,
+    IOutBoxEmailRepository outBoxEmailRepository,
+    IUnitOfWork unitofWork,
     ICacheService cache) : IRequestHandler<CreateTodoCommand, Result<string>>
 {
     public async Task<Result<string>> Handle(CreateTodoCommand request, CancellationToken cancellationToken)
@@ -28,8 +32,24 @@ internal sealed class CreateTodoCommandHandler(
         Todo todo = mapper.Map<Todo>(request);
         await todoRepository.CreateAsync(todo, cancellationToken);
 
+        OutBoxEmail outBoxEmail = new()
+        {
+            TodoId = todo.Id,
+            IsSuccesful = true,  // bu false olmalı, deneme işlemi bittiği için true seçildi
+        };
+
+        await outBoxEmailRepository.CreateAsync(outBoxEmail, cancellationToken);
+
+        await unitofWork.SaveChangesAsync(cancellationToken);
+
         //var response = Result<string>.Success("Create is successful");
         cache.Remove("todos");
+
+
+        //TodoService.SendEmail();
+        //TodoService.SendSms();
+        await mediator.Publish(new TodoDomainEvent(todo));
+
         return "Create is successful";
     }
 }

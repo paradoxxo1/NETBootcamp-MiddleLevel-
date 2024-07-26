@@ -22,6 +22,31 @@ namespace TodoCleanArchitecture.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TodoCleanArchitecture.Domain.Entities.OutBoxEmail", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsSuccesful")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("TodoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("TryCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TodoId");
+
+                    b.ToTable("OutBoxEmails");
+                });
+
             modelBuilder.Entity("TodoCleanArchitecture.Domain.Entities.Todo", b =>
                 {
                     b.Property<Guid>("Id")
@@ -34,6 +59,10 @@ namespace TodoCleanArchitecture.Infrastructure.Migrations
                     b.Property<DateOnly>("DeadLine")
                         .HasColumnType("date");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsCompleted")
                         .HasColumnType("bit");
 
@@ -44,6 +73,17 @@ namespace TodoCleanArchitecture.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Todos");
+                });
+
+            modelBuilder.Entity("TodoCleanArchitecture.Domain.Entities.OutBoxEmail", b =>
+                {
+                    b.HasOne("TodoCleanArchitecture.Domain.Entities.Todo", "Todo")
+                        .WithMany()
+                        .HasForeignKey("TodoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Todo");
                 });
 #pragma warning restore 612, 618
         }

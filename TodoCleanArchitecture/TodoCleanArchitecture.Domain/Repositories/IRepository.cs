@@ -4,7 +4,7 @@ namespace TodoCleanArchitecture.Domain.Repositories;
 public interface IRepository<T>
 {
     Task CreateAsync(T data, CancellationToken cancellationToken = default);
-    Task UpdateAsync(T data, CancellationToken cancellationToken = default);
+    void Update(T data);
     Task DeleteAsync(T data, CancellationToken cancellationToken = default);
     IQueryable<T> GetAll();
     IQueryable<T> Where(Expression<Func<T, bool>> predicate);

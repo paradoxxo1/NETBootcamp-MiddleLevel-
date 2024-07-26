@@ -25,7 +25,7 @@ internal class Repository<T> : IRepository<T>
     public async Task CreateAsync(T data, CancellationToken cancellationToken = default)
     {
         await entity.AddAsync(data, cancellationToken);
-        await _context.SaveChangesAsync(cancellationToken);
+        //await _context.SaveChangesAsync(cancellationToken);
     }
 
     public async Task DeleteAsync(T data, CancellationToken cancellationToken = default)
@@ -36,22 +36,26 @@ internal class Repository<T> : IRepository<T>
 
     public IQueryable<T> GetAll()
     {
+        return entity.AsNoTracking().AsQueryable();
+    }
+
+    public IQueryable<T> GetAllWithTracking()
+    {
         return entity.AsQueryable();
     }
 
     public async Task<T?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
     {
-        return await entity.FindAsync(id, cancellationToken);
+        return await entity.FirstOrDefaultAsync(p => p.Id == id, cancellationToken);
     }
 
-    public async Task UpdateAsync(T data, CancellationToken cancellationToken = default)
+    public void Update(T data)
     {
         entity.Update(data);
-        await _context.SaveChangesAsync(cancellationToken);
     }
 
     public IQueryable<T> Where(Expression<Func<T, bool>> predicate)
     {
-        return entity.Where(predicate).AsQueryable();
+        return entity.AsNoTracking().Where(predicate).AsQueryable();
     }
 }

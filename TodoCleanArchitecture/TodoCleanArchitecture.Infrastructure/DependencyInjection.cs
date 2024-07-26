@@ -23,6 +23,10 @@ public static class DependencyInjection
         });
         services.TryAddScoped<ITodoRepository, TodoRepository>();
         services.TryAddScoped<ICacheService, RedisCacheService>();
+        services.TryAddScoped<IOutBoxEmailRepository, OutBoxEmailRepository>();
+        services.TryAddScoped<IApplicationDbContext, ApplicationDbContext>();
+        services.TryAddScoped<IUnitOfWork>(srv => srv.GetRequiredService<ApplicationDbContext>());
+
 
         return services;
     }

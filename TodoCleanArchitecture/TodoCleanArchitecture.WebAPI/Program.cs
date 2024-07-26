@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.OData;
 using Microsoft.Extensions.Options;
 using TodoCleanArchitecture.Application;
+using TodoCleanArchitecture.Application.Service;
 using TodoCleanArchitecture.Infrastructure;
 using TodoCleanArchitecture.Infrastructure.Options;
+using TodoCleanArchitecture.WebAPI;
 using TodoCleanArchitecture.WebAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +26,11 @@ builder.Services.AddControllers().AddOData(action =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddExceptionHandler<MyExceptionHandler>().AddProblemDetails();
+
+builder.Services.AddServiceTool();
+builder.Services.AddHostedService<MailSendBackgroundService>();
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

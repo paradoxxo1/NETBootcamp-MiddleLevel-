@@ -7,11 +7,15 @@ using TodoCleanArchitecture.Domain.Repositories;
 namespace TodoCleanArchitecture.Application.Features.Todos.GetAllTodo;
 
 internal sealed class GetAllTodoQueryHandler(
+    // IApplicationDbContext dbContext  Yöntem-1
     ITodoRepository todoRepository,
-    ICacheService cache) : IRequestHandler<GetAllTodoQuery, List<Todo>>
+    ICacheService cache
+    ) : IRequestHandler<GetAllTodoQuery, List<Todo>>
 {
     public async Task<List<Todo>> Handle(GetAllTodoQuery request, CancellationToken cancellationToken)
     {
+        //var result = dbContext.Todos.ToList(); Yöntem-1
+
         cache.TryGetValue("todos", out List<Todo>? todos);
 
         if (todos is null)

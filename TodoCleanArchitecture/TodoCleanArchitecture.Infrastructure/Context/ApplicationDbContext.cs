@@ -1,15 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TodoCleanArchitecture.Application.Service;
 using TodoCleanArchitecture.Domain.Abstractions;
 using TodoCleanArchitecture.Domain.Entities;
+using TodoCleanArchitecture.Domain.Repositories;
 
 namespace TodoCleanArchitecture.Infrastructure.Context;
-internal class ApplicationDbContext : DbContext
+internal class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWork
 {
     public ApplicationDbContext(DbContextOptions options) : base(options)
     {
     }
-
     public DbSet<Todo> Todos { get; set; }
+    public DbSet<OutBoxEmail> OutBoxEmails { get; set; }
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {

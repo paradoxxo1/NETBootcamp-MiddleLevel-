@@ -9,7 +9,8 @@ namespace TodoCleanArchitecture.Application.Features.Todos.UpdateTodo;
 internal sealed class UpdateTodoCommandHandler(
     ITodoRepository todoRepository,
     IMapper mapper,
-    ICacheService cache
+    ICacheService cache,
+    IUnitOfWork unitOfWork
     ) : IRequestHandler<UpdateTodoCommand>
 {
     public async Task Handle(UpdateTodoCommand request, CancellationToken cancellationToken)
@@ -22,7 +23,7 @@ internal sealed class UpdateTodoCommandHandler(
 
         mapper.Map(request, todo);
 
-        await todoRepository.UpdateAsync(todo, cancellationToken);
+        await unitOfWork.SaveChangesAsync(cancellationToken);
 
         cache.Remove("todos");
     }

@@ -20,3 +20,4 @@ C:\TSNETMiddle\TodoCleanArchitecture\TodoCleanArchitecture.Domain\obj\Debug\net8
 C:\TSNETMiddle\TodoCleanArchitecture\TodoCleanArchitecture.Domain\obj\Debug\net8.0\refint\TodoCleanArchitecture.Domain.dll
 C:\TSNETMiddle\TodoCleanArchitecture\TodoCleanArchitecture.Domain\obj\Debug\net8.0\TodoCleanArchitecture.Domain.pdb
 C:\TSNETMiddle\TodoCleanArchitecture\TodoCleanArchitecture.Domain\obj\Debug\net8.0\ref\TodoCleanArchitecture.Domain.dll
+C:\TSNETMiddle\TodoCleanArchitecture\TodoCleanArchitecture.Domain\obj\Debug\net8.0\TodoCleanArchitecture.Domain.csproj.AssemblyReference.cache
