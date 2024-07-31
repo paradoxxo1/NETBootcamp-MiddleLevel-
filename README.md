@@ -2,7 +2,7 @@
 
 ## Ders Programı ve Konular
 
-### 20.07.2024 (Sonraki Ders)
+### 20.07.2024 
 - UnitOfWork
 - AsNoTracking - Include
 - Outbox Pattern
