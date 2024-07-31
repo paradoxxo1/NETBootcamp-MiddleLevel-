@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\TSNETMiddle\\TodoCleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\behaivors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\behaivors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F4A7C4-B04F-402D-87CF-C8CA597A670C}|TodoCleanArchitecture.WebAPI\\TodoCleanArchitecture.WebAPI.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.webapi\\middlewares\\myexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F4A7C4-B04F-402D-87CF-C8CA597A670C}|TodoCleanArchitecture.WebAPI\\TodoCleanArchitecture.WebAPI.csproj|solutionrelative:todocleanarchitecture.webapi\\middlewares\\myexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A4F8FE-F751-4DDB-8AC2-42F72E925FB4}|TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.domain\\events\\tododomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A4F8FE-F751-4DDB-8AC2-42F72E925FB4}|TodoCleanArchitecture.Domain\\TodoCleanArchitecture.Domain.csproj|solutionrelative:todocleanarchitecture.domain\\events\\tododomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\service\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\service\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|c:\\tsnetmiddle\\todocleanarchitecture\\todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C56399EF-2AE4-42F0-98CA-F0B673451582}|TodoCleanArchitecture.Application\\TodoCleanArchitecture.Application.csproj|solutionrelative:todocleanarchitecture.application\\features\\todos\\createtodo\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,50 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "TodoCleanArchitecture.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Title": "MyExceptionHandler.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.WebAPI\\Middlewares\\MyExceptionHandler.cs",
+              "RelativeDocumentMoniker": "TodoCleanArchitecture.WebAPI\\Middlewares\\MyExceptionHandler.cs",
+              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.WebAPI\\Middlewares\\MyExceptionHandler.cs",
+              "RelativeToolTip": "TodoCleanArchitecture.WebAPI\\Middlewares\\MyExceptionHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T17:21:03.845Z"
+              "WhenOpened": "2024-07-31T14:29:42.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoDomainEvent.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\Events\\TodoDomainEvent.cs",
-              "RelativeDocumentMoniker": "TodoCleanArchitecture.Domain\\Events\\TodoDomainEvent.cs",
-              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Domain\\Events\\TodoDomainEvent.cs",
-              "RelativeToolTip": "TodoCleanArchitecture.Domain\\Events\\TodoDomainEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T17:11:58.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TodoService.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Service\\TodoService.cs",
-              "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\Service\\TodoService.cs",
-              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Service\\TodoService.cs",
-              "RelativeToolTip": "TodoCleanArchitecture.Application\\Service\\TodoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T17:08:54.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CreateTodoCommandHandler.cs",
               "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandHandler.cs",
               "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandHandler.cs",
               "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandHandler.cs",
               "RelativeToolTip": "TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandHandler.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwC8AAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T17:07:01.283Z",
+              "WhenOpened": "2024-07-31T14:11:59.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateTodoCommandValidator.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandValidator.cs",
+              "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandValidator.cs",
+              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandValidator.cs",
+              "RelativeToolTip": "TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:58:51.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Behaivors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\Behaivors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Behaivors\\ValidationBehavior.cs",
+              "RelativeToolTip": "TodoCleanArchitecture.Application\\Behaivors\\ValidationBehavior.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwBIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:44:11.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "TodoCleanArchitecture.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:39:38.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateTodoCommand.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommand.cs",
+              "RelativeDocumentMoniker": "TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommand.cs",
+              "ToolTip": "C:\\TSNETMiddle\\TodoCleanArchitecture\\TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommand.cs",
+              "RelativeToolTip": "TodoCleanArchitecture.Application\\Features\\Todos\\CreateTodo\\CreateTodoCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:38:30.526Z",
               "EditorCaption": ""
             }
           ]
