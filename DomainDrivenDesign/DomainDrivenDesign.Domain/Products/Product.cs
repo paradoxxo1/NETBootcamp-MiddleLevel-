@@ -1,6 +1,10 @@
 ﻿namespace DomainDrivenDesign.Domain.Products;
 public sealed class Product
 {
+    private Product()
+    {
+
+    }
     public Product(Identity id, Name name, Description description, Price price, Stock stock)
     {
         Id = id;
@@ -10,11 +14,11 @@ public sealed class Product
         Stock = stock;
 
     }
-    public Identity Id { get; private set; }
-    public Name Name { get; private set; }
-    public Description Description { get; private set; }
-    public Price Price { get; private set; }
-    public Stock Stock { get; private set; }
+    public Identity Id { get; private set; } = default!;
+    public Name Name { get; private set; } = default!;
+    public Description Description { get; private set; } = default!;
+    public Price Price { get; private set; } = default!;
+    public Stock Stock { get; private set; } = default!;
 
     public void SetName(Name name)
     {

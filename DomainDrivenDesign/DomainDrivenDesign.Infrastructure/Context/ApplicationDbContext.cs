@@ -10,5 +10,9 @@ internal sealed class ApplicationDbContext : DbContext, IUnitOfWork
     }
     public DbSet<Product> Products { get; set; }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+    }
 }
 

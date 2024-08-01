@@ -11,21 +11,23 @@ public sealed record CreateProductCommand(
 
 internal sealed class CreateProductCommandHandler(
     IProductRepository productRepository,
-    IUnitOfWork unitOfWork) : IRequestHandler<CreateProductCommand>
+    IUnitOfWork unitOfWork
+    ) : IRequestHandler<CreateProductCommand>
 {
     public async Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
+        bool isNameExists = await productRepository.IsNameExists(request.Name, cancellationToken);
+        if (isNameExists)
+        {
+            throw new ArgumentException("Product name already exists");
+        }
+
         Identity identity = new(Guid.NewGuid());
-        Name name = new(request.Name);
+        Name name = Name.Create(request.Name);
         Description description = new(request.Description);
         Price price = new(request.Price);
         Stock stock = new(request.Stock);
 
-        bool isNameExists = await productRepository.IsNameExists(name, cancellationToken);
-        if (isNameExists)
-        {
-            throw new ArgumentException("Product Name already exists");
-        }
 
         Product product = new(identity, name, description, price, stock);
 
@@ -33,4 +35,3 @@ internal sealed class CreateProductCommandHandler(
         await unitOfWork.SaveChangesAsync(cancellationToken);
     }
 }
-

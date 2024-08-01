@@ -1,0 +1,15 @@
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\bin\Debug\net8.0\DomainDrivenDesign.Application.deps.json
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\bin\Debug\net8.0\DomainDrivenDesign.Application.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\bin\Debug\net8.0\DomainDrivenDesign.Application.pdb
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\bin\Debug\net8.0\DomainDrivenDesign.Domain.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\bin\Debug\net8.0\DomainDrivenDesign.Domain.pdb
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.csproj.AssemblyReference.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.AssemblyInfoInputs.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.AssemblyInfo.cs
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.csproj.CoreCompileInputs.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDr.FF26C4C8.Up2Date
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\refint\DomainDrivenDesign.Application.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\DomainDrivenDesign.Application.pdb
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Application\obj\Debug\net8.0\ref\DomainDrivenDesign.Application.dll

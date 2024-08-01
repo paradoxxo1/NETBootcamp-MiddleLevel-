@@ -1,0 +1,17 @@
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\bin\Debug\net8.0\DomainDrivenDesign.Infrastructure.deps.json
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\bin\Debug\net8.0\DomainDrivenDesign.Infrastructure.runtimeconfig.json
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\bin\Debug\net8.0\DomainDrivenDesign.Infrastructure.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\bin\Debug\net8.0\DomainDrivenDesign.Infrastructure.pdb
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\bin\Debug\net8.0\DomainDrivenDesign.Domain.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\bin\Debug\net8.0\DomainDrivenDesign.Domain.pdb
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.csproj.AssemblyReference.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.AssemblyInfoInputs.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.AssemblyInfo.cs
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.csproj.CoreCompileInputs.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDr.7A468C05.Up2Date
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\refint\DomainDrivenDesign.Infrastructure.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.pdb
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\DomainDrivenDesign.Infrastructure.genruntimeconfig.cache
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Infrastructure\obj\Debug\net8.0\ref\DomainDrivenDesign.Infrastructure.dll
