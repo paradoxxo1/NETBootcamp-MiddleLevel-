@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Paradoxxo\\.nuget\\packages\\": {}
+    "C:\\Users\\Oğuz Gürkan Işık\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
+      "projectUniqueName": "C:\\TSMiddleLevel\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
       "projectName": "DomainDrivenDesign.Domain",
-      "projectPath": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
-      "packagesPath": "C:\\Users\\Paradoxxo\\.nuget\\packages\\",
-      "outputPath": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\obj\\",
+      "projectPath": "C:\\TSMiddleLevel\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
+      "packagesPath": "C:\\Users\\Oğuz Gürkan Işık\\.nuget\\packages\\",
+      "outputPath": "C:\\TSMiddleLevel\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Paradoxxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oğuz Gürkan Işık\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

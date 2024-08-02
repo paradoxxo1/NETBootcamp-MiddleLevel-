@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DomainDrivenDesign.Domain
-build_property.ProjectDir = C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Domain\
+build_property.ProjectDir = C:\TSMiddleLevel\DomainDrivenDesign\DomainDrivenDesign.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
