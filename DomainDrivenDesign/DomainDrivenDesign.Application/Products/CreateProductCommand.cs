@@ -7,19 +7,19 @@ public sealed record CreateProductCommand(
     string Name,
     string Description,
     decimal Price,
-    int Stock) : IRequest;
+    int Stock) : IRequest<Result<string>>;
 
 internal sealed class CreateProductCommandHandler(
     IProductRepository productRepository,
     IUnitOfWork unitOfWork
-    ) : IRequestHandler<CreateProductCommand>
+    ) : IRequestHandler<CreateProductCommand, Result<string>>
 {
-    public async Task Handle(CreateProductCommand request, CancellationToken cancellationToken)
+    public async Task<Result<string>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
         bool isNameExists = await productRepository.IsNameExists(request.Name, cancellationToken);
         if (isNameExists)
         {
-            throw new ArgumentException("Product name already exists");
+            return Result<string>.Failure("Product name already exists", 400);
         }
 
         Identity identity = new(Guid.NewGuid());
@@ -33,5 +33,7 @@ internal sealed class CreateProductCommandHandler(
 
         await productRepository.CreateAsync(product, cancellationToken);
         await unitOfWork.SaveChangesAsync(cancellationToken);
+
+        return "Create is successful";
     }
 }

@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\TSMiddleLevel\\DomainDrivenDesign\\",
+  "WorkspaceRootPath": "C:\\TSNETMiddle\\DomainDrivenDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsmiddlelevel\\domaindrivendesign\\domaindrivendesign.domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.application\\products\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|solutionrelative:domaindrivendesign.application\\products\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.application\\products\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|solutionrelative:domaindrivendesign.application\\products\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\TSMiddleLevel\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "ToolTip": "C:\\TSMiddleLevel\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T17:43:48.754Z",
+              "WhenOpened": "2024-08-03T12:20:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Abstractions\\Result.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Abstractions\\Result.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Abstractions\\Result.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Domain\\Abstractions\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:01:21.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:07:39.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:02:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionHandler.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:16:18.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\Program.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Program.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:05:59.302Z",
               "EditorCaption": ""
             }
           ]
