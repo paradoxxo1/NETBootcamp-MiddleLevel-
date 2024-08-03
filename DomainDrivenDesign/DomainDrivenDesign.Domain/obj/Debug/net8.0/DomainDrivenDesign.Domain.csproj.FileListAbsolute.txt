@@ -9,3 +9,4 @@ C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Domain\obj\Debug\net8.0\Dom
 C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Domain\obj\Debug\net8.0\refint\DomainDrivenDesign.Domain.dll
 C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Domain\obj\Debug\net8.0\DomainDrivenDesign.Domain.pdb
 C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Domain\obj\Debug\net8.0\ref\DomainDrivenDesign.Domain.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.Domain\obj\Debug\net8.0\DomainDrivenDesign.Domain.csproj.AssemblyReference.cache

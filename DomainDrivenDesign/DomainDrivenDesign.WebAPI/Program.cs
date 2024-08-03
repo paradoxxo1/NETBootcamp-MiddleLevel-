@@ -30,4 +30,7 @@ app.MapControllers();
 
 app.UseExceptionHandler();
 
+Extensions.DatabaseMigrate(app);
+Extensions.CreateFirstAdminUser(app).Wait();
+
 app.Run();

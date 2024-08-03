@@ -1,4 +1,5 @@
 ﻿using DomainDrivenDesign.Domain.Products;
+using DomainDrivenDesign.Domain.Shared;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -31,6 +32,12 @@ internal sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
         //build.Property(p => p.IsDelete)
         //    .HasConversion(isDelete => isDelete.Value, value => new IsDelete(value));
 
-        //build.HasQueryFilter(x => x.IsDelete == new IsDelete(false));
+        build.HasQueryFilter(x => !x.IsDelete.Value);
+
+
+        build.Property(p => p.IsDelete)
+            .HasConversion(isDelete => isDelete.Value, value => new IsDelete(value));
+
+        build.HasQueryFilter(x => x.IsDelete == new IsDelete(false));
     }
 }

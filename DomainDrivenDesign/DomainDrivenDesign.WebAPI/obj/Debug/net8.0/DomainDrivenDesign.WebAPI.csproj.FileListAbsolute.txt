@@ -142,3 +142,11 @@ C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\obj\Debug\net8.0\ref
 C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\obj\Debug\net8.0\DomainDrivenDesign.WebAPI.pdb
 C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\obj\Debug\net8.0\DomainDrivenDesign.WebAPI.genruntimeconfig.cache
 C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\obj\Debug\net8.0\ref\DomainDrivenDesign.WebAPI.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\TSNETMiddle\DomainDrivenDesign\DomainDrivenDesign.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll

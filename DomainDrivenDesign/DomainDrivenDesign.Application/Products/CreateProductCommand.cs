@@ -1,5 +1,6 @@
 ﻿using DomainDrivenDesign.Domain.Abstractions;
 using DomainDrivenDesign.Domain.Products;
+using DomainDrivenDesign.Domain.Shared;
 using MediatR;
 
 namespace DomainDrivenDesign.Application.Products;
