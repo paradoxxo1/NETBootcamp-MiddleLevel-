@@ -9,6 +9,7 @@ public sealed record Stock
         {
             throw new ArgumentException("Stock must be greater then 0");
         }
+
         Value = value;
     }
 }

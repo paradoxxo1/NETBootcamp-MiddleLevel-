@@ -3,36 +3,72 @@
   "WorkspaceRootPath": "C:\\TSNETMiddle\\DomainDrivenDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240803195946_mg7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DomainDrivenDesign.Infrastructure\\Migrations\\20240803195946_mg7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.infrastructure\\configuration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|solutionrelative:domaindrivendesign.infrastructure\\configuration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|solutionrelative:domaindrivendesign.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\products\\isdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\products\\isdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240804140510_mig12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DomainDrivenDesign.Infrastructure\\Migrations\\20240804140510_mig12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\products\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\products\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240804140010_mig11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DomainDrivenDesign.Infrastructure\\Migrations\\20240804140010_mig11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CD6FA9-E7F5-40AE-AE8D-83EB3019A7EA}|DomainDrivenDesign.WebAPI\\DomainDrivenDesign.WebAPI.csproj|solutionrelative:domaindrivendesign.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|solutionrelative:domaindrivendesign.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|solutionrelative:domaindrivendesign.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.infrastructure\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641E026E-8A42-4F26-AD4A-19C68CE5ADAF}|DomainDrivenDesign.Infrastructure\\DomainDrivenDesign.Infrastructure.csproj|solutionrelative:domaindrivendesign.infrastructure\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|solutionrelative:domaindrivendesign.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\domaindrivendesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\domaindrivendesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.application\\products\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|solutionrelative:domaindrivendesign.application\\products\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.domain\\shared\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{431D4762-2F2A-44B4-81A6-C4E9F7680095}|DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj|solutionrelative:domaindrivendesign.domain\\shared\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|c:\\tsnetmiddle\\domaindrivendesign\\domaindrivendesign.application\\products\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7363-8298-438A-95E3-7023864B56CD}|DomainDrivenDesign.Application\\DomainDrivenDesign.Application.csproj|solutionrelative:domaindrivendesign.application\\products\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +86,223 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240803195946_mg7.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240803195946_mg7.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Migrations\\20240803195946_mg7.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240803195946_mg7.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Migrations\\20240803195946_mg7.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T19:59:47.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Domain\\Products\\Product.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAMAAAAUAAAA",
+              "Title": "20240804140510_mig12.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240804140510_mig12.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Migrations\\20240804140510_mig12.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240804140510_mig12.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Migrations\\20240804140510_mig12.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T19:57:30.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCgAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T17:17:09.864Z",
+              "WhenOpened": "2024-08-04T14:05:10.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAABlAAAA",
+              "Title": "Description.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Description.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Products\\Description.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Description.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Domain\\Products\\Description.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T17:09:52.173Z",
+              "WhenOpened": "2024-08-04T14:04:17.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Product.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Products\\Product.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\Product.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Domain\\Products\\Product.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwBgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T16:27:23.061Z",
+              "WhenOpened": "2024-08-04T14:01:27.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DomainDrivenDesign.Domain",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
-              "RelativeToolTip": "DomainDrivenDesign.Domain\\DomainDrivenDesign.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-03T15:49:12.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Identity.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Shared\\Identity.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Shared\\Identity.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Shared\\Identity.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Domain\\Shared\\Identity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "DocumentIndex": 1,
+              "Title": "IsDelete.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\IsDelete.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Products\\IsDelete.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Products\\IsDelete.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Domain\\Products\\IsDelete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T15:48:56.849Z",
+              "WhenOpened": "2024-08-04T14:01:21.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Users\\User.cs",
-              "RelativeDocumentMoniker": "DomainDrivenDesign.Domain\\Users\\User.cs",
-              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Domain\\Users\\User.cs",
-              "RelativeToolTip": "DomainDrivenDesign.Domain\\Users\\User.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwDYAAAAZAAAA",
+              "Title": "20240804140010_mig11.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240804140010_mig11.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Migrations\\20240804140010_mig11.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Migrations\\20240804140010_mig11.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Migrations\\20240804140010_mig11.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T15:48:09.372Z",
+              "WhenOpened": "2024-08-04T14:00:10.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\Program.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Program.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:59:13.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Extensions.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\Extensions.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Extensions.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\Extensions.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAmwCkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:58:59.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionHandler.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\ExceptionHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAzwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:58:50.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:58:39.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DomainDrivenDesign.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:58:19.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:57:58.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:57:48.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Configuration\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:57:06.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Infrastructure\\Configuration\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:57:01.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:56:35.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Application\\Products\\GetAllProductsQuery.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA1wB8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:56:20.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "ToolTip": "C:\\TSNETMiddle\\DomainDrivenDesign\\DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "RelativeToolTip": "DomainDrivenDesign.Application\\Products\\CreateProductCommand.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwCcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:56:05.954Z",
               "EditorCaption": ""
             }
           ]

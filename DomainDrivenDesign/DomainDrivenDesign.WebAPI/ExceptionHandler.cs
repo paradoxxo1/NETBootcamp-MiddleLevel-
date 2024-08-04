@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
+using System.Net.Mime;
 using System.Text.Json;
 
 namespace DomainDrivenDesign.WebAPI;
@@ -15,7 +16,8 @@ public sealed class ExceptionHandler : IExceptionHandler
         {
             context.Response.StatusCode = 500;
         }
-        context.Response.ContentType = "application/text";
+
+        context.Response.ContentType = MediaTypeNames.Application.Json;
 
         object result = new { Message = ex.Message };
         string errorMessage = JsonSerializer.Serialize(result);

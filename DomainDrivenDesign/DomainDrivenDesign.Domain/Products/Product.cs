@@ -14,8 +14,9 @@ public sealed class Product
         Description = description;
         Price = price;
         Stock = stock;
-
+        IsDelete = new(false);
     }
+
     public Identity Id { get; private set; } = default!;
     public Name Name { get; private set; } = default!;
     public Description Description { get; private set; } = default!;

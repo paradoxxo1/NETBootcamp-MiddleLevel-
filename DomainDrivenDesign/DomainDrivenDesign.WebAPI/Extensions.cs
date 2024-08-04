@@ -9,17 +9,18 @@ public static class Extensions
 {
     public static async Task CreateFirstAdminUser(WebApplication app)
     {
-        var scoped = app.Services.CreateScope();
-        var srv = scoped.ServiceProvider;
+        var scope = app.Services.CreateScope();
+        var srv = scope.ServiceProvider;
 
         var context = srv.GetRequiredService<ApplicationDbContext>();
 
-        if (context.Users.Any(p => p.IsAdmin == new IsAdmin(true)))
+        if (!context.Users.Any(p => p.IsAdmin == new IsAdmin(true)))
         {
-            FirstName firstName = new("Mahmut");
-            LastName lastName = new("Demirkıran");
-            UserName userName = new("mahmut");
-            Email email = new("admin@gmail.com");
+            FirstName firstName = new("Taner");
+            LastName lastName = new("Saydam");
+            UserName userName = new("taner");
+            Email email = new("tanersaydam@gmail.com");
+
             User user = User.Create(firstName, lastName, userName, email);
             IsAdmin isAdmin = new(true);
             user.SetIsAdmin(isAdmin);
@@ -31,11 +32,11 @@ public static class Extensions
 
     public static void DatabaseMigrate(WebApplication app)
     {
-        var scoped = app.Services.CreateScope();
-        var srv = scoped.ServiceProvider;
+        var scope = app.Services.CreateScope();
+        var srv = scope.ServiceProvider;
 
         var context = srv.GetRequiredService<ApplicationDbContext>();
+
         context.Database.Migrate();
     }
-
 }

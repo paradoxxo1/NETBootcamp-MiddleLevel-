@@ -9,6 +9,7 @@ public sealed record Price
         {
             throw new ArgumentException("Price must be greater then 0");
         }
+
         Value = value;
     }
 }
